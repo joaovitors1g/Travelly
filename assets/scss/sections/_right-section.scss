@@ -1,0 +1,19 @@
+.blue-bg {
+  background: $right-section-bg-color;
+  position: absolute;
+  top: 0;
+  width: 42vw;
+  right: 0;
+  height: 100vh;
+  z-index: -1;
+}
+.right-side  {
+  margin: 3rem auto;
+  h1 {
+    font-size: 1.6rem;
+  }
+  p {
+    font-weight: 600;
+    margin-bottom: 1.8rem;
+  }
+}

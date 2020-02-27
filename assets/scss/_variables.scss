@@ -1,0 +1,21 @@
+
+
+$font-family: 'Montserrat', sans-serif;
+$primary-color: #ff5b77;
+$secondary-color:#091037;
+$right-section-bg-color: #c0eff6;
+$border-thickness: 1px;
+
+
+// Nav
+
+$nav-active-color: $primary-color;
+
+// Buttons
+
+$button-secondary-hover-color: darken($secondary-color, 10%);
+
+:root {
+  --primary-color: $primary-color;
+  --secondary-color: $secondary-color;
+}

@@ -1,0 +1,19 @@
+.site-header {
+  padding-top: 1rem;
+  .site-logo a {
+    text-decoration: none;
+    color: #000;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.logo {
+  font-size: 1rem;
+}
+
+.main-content .container {
+  display: flex;
+}

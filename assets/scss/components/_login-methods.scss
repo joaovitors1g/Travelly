@@ -1,0 +1,17 @@
+.login-methods-title-wrapper {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.login-methods-list {
+  list-style: none;
+  font-weight: 600;
+  text-align: center;
+  padding: 0;
+  .login-method {
+    display: inline;
+  }
+  .login-method:not(:first-child) {
+    margin-left: 1rem;
+  }
+}

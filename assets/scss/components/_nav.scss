@@ -1,0 +1,57 @@
+.nav {
+  margin-left: 3rem;
+  .nav-list {
+    list-style: none;
+    display: flex;
+    .nav-list-item {
+      margin-left: 2rem;
+      .nav-link {
+        text-decoration: none;
+        text-transform: lowercase;
+        font-weight: 600;
+        color: #000;
+        &:hover {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+}
+
+.nav-toggle-btn {
+  display: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+  .bar {
+    width: 28px;
+    height: 3px;
+    background-color: #333;
+    margin: 6px 0;
+  }
+}
+
+
+.bar {
+  transition: 0.4s;
+}
+.change {
+  z-index: 30;
+  .bar {
+    background: white;
+  }
+}
+/* Rotate first bar */
+.change .bar:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+/* Fade out the second bar */
+.change .bar:nth-child(2) {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar:nth-child(3) {
+  transform: rotate(45deg) translate(-7px, -8px) ;
+}

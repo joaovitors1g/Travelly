@@ -1,0 +1,24 @@
+.input-wrapper {
+  background: white;
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  padding-left: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  i {
+    color: $secondary-color;
+    opacity: 0.7;
+    padding: 0 0.5rem;
+  }
+  .form-input {
+    border: none;
+    background: none;
+    outline: none;
+    margin-left: 0.4rem;
+    width: 100%;
+  }
+}
+
+.input-wrapper:not(:first-child) {
+  margin-top: 1rem;
+}

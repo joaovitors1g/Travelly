@@ -1,0 +1,42 @@
+.left-side  {
+  width: 55vw;
+  height: 88vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  &-contents {
+    margin-top: -3.4rem;
+  }
+  h1 {
+    font-size: 3rem;
+    max-width: 70%;
+    font-weight: 600;
+    margin: 0;
+  }
+  h3 {
+    font-size: 0.9rem;
+    margin-bottom: 4rem;
+  }
+
+  .contact-data {
+    position: absolute;
+    bottom: 1rem;
+    font-weight: 600;
+    .credits {
+      a {
+        text-decoration: none;
+        color: $primary-color;
+        &:hover {
+          color: darken($primary-color, 5%);
+        }
+      }
+    }
+  }
+  .traveller-img {
+    position: absolute;
+    bottom: -.6rem;
+    right: -3rem;
+    width: 30%;
+  }
+}

@@ -1,0 +1,36 @@
+.btn {
+  padding: 1rem 2.5rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.btn-bordered {
+  background: none;
+  border: $border-thickness solid;
+  color: #000;
+}
+
+.border-primary {
+  border-color: $primary-color;
+}
+
+.border-secondary {
+  border-color: $secondary-color;
+}
+
+.btn-primary {
+  background: $primary-color;
+  color: #fff;
+}
+
+.btn-secondary {
+  background: $secondary-color;
+  color: set-text-color($secondary-color);
+}
+
+.btn-register:hover {
+  background: $secondary-color;
+  color: white;
+}
